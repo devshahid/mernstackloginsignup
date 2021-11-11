@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #5e7796;
+}
+.logo {
+  padding: 0 20px;
+}
+.navItems {
+  display: flex;
+}
+.navItems li {
+  padding: 20px 30px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.linkClass {
+  text-decoration: none;
+  border: none;
+  color: black;
+}
+.linkClass:hover {
+  border-bottom: 1px solid black;
+  transition: ease-in-out 0.2s;
+}
+.mainData {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
